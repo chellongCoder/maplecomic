@@ -40,6 +40,7 @@ export const withGradient = (WrappedComponent: JSX.ElementType) =>
               textColor={this.props.textColor}
               text={this.props.text}
               source={this.props.source}
+              onPress={this.props.onPress}
             />
           </LinearGradient>
         </TouchableOpacity>
@@ -60,6 +61,7 @@ export const withGradient = (WrappedComponent: JSX.ElementType) =>
             textColor={this.props.textColor}
             text={this.props.text}
             source={this.props.source}
+            onPress={this.props.onPress}
           />
         </TouchableOpacity>
       );

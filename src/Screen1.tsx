@@ -111,6 +111,7 @@ const Screen1 = () => {
             useNativeDriver: false,
           },
         )}
+        scrollEventThrottle={16}
         onTouchStart={() => {
           Animated.timing(_visibility, {
             toValue: 0,
